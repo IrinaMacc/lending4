@@ -12,12 +12,17 @@ h1 {
 .ira{
     font-size: 25px;
 }
-.container{
+/*.container{
     width: 1610px;
     height: 940px;
 
 
 }
+    */
+    .container{
+        width: 100%;
+    
+    }
 section{
     width: 100%;
     height: 100vh;
@@ -31,8 +36,9 @@ section{
      background-size: cover;
      display: flex;
     justify-content: center;
-    align-items: center;
+    
 }
+
 header a {
     color: #fff;
 }
@@ -65,12 +71,13 @@ header a {
     margin-left: auto;
     letter-spacing: 0.1em;
 }
-.nav {
+/*.nav {
     padding-top: 57px;
     justify-content: center;
     height: 30px;
     display: flex;
 }
+    */
 .logo{
     margin-right: 100px;
 }
@@ -135,5 +142,47 @@ header a {
     }
 }
 
-
+.TopMenu{
+	height: 100px;
+	width: 100%;
+	background-color: #023047;
+		display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-family: "Open Sans", sans-serif;
+	font-size: 28px;
+	color:white;
    
+
+}
+.nav{
+	margin-right: auto;
+}
+
+.navItem{
+	color: white;
+	text-decoration: none;
+	margin-right: 50px;
+	font-weight: 450;
+	transition: color 0.3s linear;
+}
+.navItem:hover {
+    color: #8ECAE6;
+    }
+.Tm1{
+	padding-left: 25px;
+
+}
+   
+.cart{
+	margin-right: 60px;
+}
+.login{
+	font-weight: 450;
+}
+.loginA{
+	transition: color 0.3s linear;
+}
+.loginA:hover{
+	color:#8ECAE6;
+}
